@@ -174,7 +174,7 @@ public:
         this->push_back(elem);
     }
     void pop(){
-        this->pop_back();
+        this->pop_back(); // TODO: Queue's pop operation isn't in such a manner. Fix it.
     }
     T& front(){
         return this->vector<T>::front();
